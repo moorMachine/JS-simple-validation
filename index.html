@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+<title> Walidacja</title>
+
+<link rel="stylesheet" type="text/css" href="style_wal.css" />
+
+
+
+
+<script type="text/javascript" src="script_wal.js" async>
+
+
+ </script>
+</head>
+<body>
+
+<div id="container">
+
+<div id="banner">
+	Fajna Strona - Rejestracja
+</div>
+
+
+<div id="errors">
+
+<span id="firstError"></span>
+
+</div>
+
+
+<div id="validate">
+
+	<form>
+		
+		
+		<div class="enter">
+		<label> <input   type="text"  onblur="validateName(this)" id="nameId" >  Imie</label>
+		</div>
+		
+
+		
+		<div class="enter">
+		<label> <input type="text" onblur="validateSurname(this)" id="surnameId">  Nazwisko </label>
+		</div>
+		
+		<div class="enter">
+		<label> <input  type="text" onblur="validateMail(this)" id="mailId">  E-mail</label>
+		</div>
+		
+		<div class="enter">
+		<label> <input  placeholder="DD/MM/RRRR" type="text" onblur="validateDate(this)" id="dateId">  Data urodzenia</label>
+		</div>
+		
+		<div class="enter">
+		<label> <input type="password" onblur="validatePassword(this)" id="passwordId">  Hasło</label>
+		</div>
+		
+		<div class="enter">
+		<label> <input type="password" onblur="validatePasswordRep(this)" id="repPasswordId">  Powtórz hasło</label>
+		</div>
+		
+		<div class="enter">
+		<label> <textarea onblur="validateDescription(this)" id="description_Id" ></textarea>  Opis</label>
+		</div>
+		
+		<button type="button" onclick="sendForm()"> Zarejestruj się</button>
+
+
+
+	</form>
+
+</div>
+
+
+</div>
+
+</body>
+</html>

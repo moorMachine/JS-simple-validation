@@ -1,0 +1,90 @@
+span{
+	
+	color:red;
+	
+}
+body
+{
+
+		background-color:#8FBC8F;
+	
+}
+
+#banner
+{
+	
+	width:380px;
+	background-color:gray;
+	text-align:center;
+	font-size:25px;
+	padding:10px;
+	margin-left:50px;
+	margin-bottom:15px;
+	border-radius:15px;
+	
+}
+
+
+#errors
+{
+		max-width:380px;
+		border: solid red 1px;
+		border-radius:15px;
+		display:none;
+	
+		color:red;
+	
+		
+		
+		background-color:#CCCCCC;
+		margin-left:50px;
+		padding:10px;
+}
+
+.errorInfo{
+	
+	display:block;
+	margin-bottom:15px;
+	
+}
+#validate
+{
+		margin-top:20px;
+		max-width:380px;
+		background-color:gray;
+		padding:10px;
+		border-radius:15px;
+		margin-left: 50px;
+		
+}
+
+
+
+#container
+{
+	background-color:green;
+	padding:10px;
+	
+	border-radius:15px;
+	
+	width:500px;
+	min-height:700px;
+	
+	margin-right:auto;
+	margin-left:auto;
+	
+	
+}
+
+#description_Id{
+	
+		resize: none;
+		width:300px;
+		height: 123px;
+	
+}
+
+.enter
+{
+	margin-top:20px;
+}
