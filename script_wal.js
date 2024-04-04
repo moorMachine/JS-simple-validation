@@ -361,13 +361,13 @@ function validateDate(e)
 	let myData = e.value;
 	let dateFormat = false;
 
-	let dataRegex = /[0-9]{2}[\/][0-9]{2}[\/][0-9]+/;
+	let dateRegex = /[0-9]{2}[\/][0-9]{2}[\/][0-9]+/; //  regular expression for date in  DD/MM/YYYY format
 	
 
 	let errorLog = document.getElementById("errors");
 	let isErrorData = document.getElementById("errorDate");
 	
-	if(myData.match(dataRegex) )//&& myData.length == myData.match(dataRegex)[0].length)
+	if(myData.match(dateRegex) )//&& myData.length == myData.match(dateRegex)[0].length)
 	{
 		dateFormat = true;
 	}
